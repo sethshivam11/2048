@@ -6,26 +6,26 @@ window.onload = function () {
     setGame();
 }
 
-function gameOver(){
-    document.getElementById("over").style.display = "none";
+// function gameOver(){
+//     document.getElementById("over").style.display = "none";
+//     board = [
+//         [0, 0, 0, 0],
+//         [0, 0, 0, 0],
+//         [0, 0, 0, 0],
+//         [0, 0, 0, 0]
+//     ]
+// }
+
+function setGame() {
     board = [
         [0, 0, 0, 0],
         [0, 0, 0, 0],
         [0, 0, 0, 0],
         [0, 0, 0, 0]
-    ]
-}
-
-function setGame() {
-    board = [
-        // [0, 0, 0, 0],
-        // [0, 0, 0, 0],
-        // [0, 0, 0, 0],
-        // [0, 0, 0, 0]
-        [2, 4, 8, 16],
-        [32, 64, 128, 256],
-        [512, 1024, 2048, 8],
-        [4, 4, 8, 8]
+        // [2, 4, 8, 16],
+        // [32, 64, 128, 256],
+        // [512, 1024, 2048, 8],
+        // [4, 4, 8, 8]
     ]
 
     document.getElementById('score').innerText = score;
