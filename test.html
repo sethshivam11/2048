@@ -5,21 +5,9 @@
   <body>
     <div id="container">
     </div>
-
-document.addEventListener("swiped-down", (e)=>{
-
-});
-
-document.addEventListener("swiped-left", (e)=>{
-
-});
-
-document.addEventListener("swiped-right", (e)=>{
-
-});
-  </body>
+    </body>
   <script>
-    container = document.getElementById('container')
+    let container = document.getElementById('container')
     document.addEventListener("swiped-up", (e)=>{
 
       container.innerHTML = "UP";
@@ -27,16 +15,16 @@ document.addEventListener("swiped-right", (e)=>{
     });
     document.addEventListener("swiped-down", (e)=>{
       container.innerHTML = "DOWN";
-    }
+    });
     document.addEventListener("swiped-right", (e)=>{
 
       container.innerHTML = "RIGHT";
 
-    }
+    });
     document.addEventListener("swiped-left", (e)=>{
 
       container.innerHTML = "LEFT";
 
-    }
+    });
   </script>
 </html>
