@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="rsc/style.css">
+</head>
+
+<body>
+    <span id="name">2048</span>
+    <p id="score">Score: </p>
+    <div id="board">
+        <div id="over">
+                <h1>Game Over!</h1>
+                <button onclick="gameOver()">Try Again</button>
+                <button onclick="">Share</button>
+        </div>
+    </div>
+    <div id="text">
+        <h1 style="margin-left: 30px;">Rules to Play the Game:</h1>
+        <ol type="number" id="list">
+            <li>The game is played on a 4x4 grid, totaling 16 squares.</li>
+            <li>Each square can hold a tile with a number, initially starting with two tiles randomly populated with the numbers 2 or 4.</li>
+            <li>The objective of the game is to reach the 2048 tile by combining tiles with the same numbers</li>
+            <li>You can move the tiles in four directions: up, down, left, or right. This can be done using arrow keys on a keyboard or swipe gestures on a touchscreen device.</li>
+            <li>When you make a move, all the tiles on the grid will slide as far as possible in the chosen direction.</li>
+            <li>If two tiles with the same number collide as a result of a move, they will merge into a new tile with the sum of their values.</li>
+            <li>After each move, a new tile (either 2 or 4) will appear randomly on an empty square of the grid.</li>
+            <li>The game ends if the entire grid is filled with tiles and there are no more valid moves available.</li>
+            <li>Your score is based on the sum of all merged tiles during the game.</li>
+            <li>The highest possible tile is 2048, but you can continue playing after reaching it to achieve even higher numbers and aim for a higher score.</li>
+            Remember, strategic planning and careful consideration of each move are crucial to success in 2048. Good luck and enjoy the game!
+        </ol>
+        <h1 style="margin-left: 30px;">About</h1>
+    <p class="description">
+        2048 is an addictive and challenging puzzle game that will put your strategic thinking and numerical skills to the test. The game takes place on a 4x4 grid, where your objective is to combine tiles with the same numbers to reach the elusive tile numbered 2048.
+    </p>
+    <p class="description">
+        At the beginning of the game, you are presented with two tiles randomly populated with the numbers 2 or 4. Using arrow keys or swipe gestures, you can move all the tiles on the grid in four directions: up, down, left, or right. As you make a move, all tiles slide as far as possible in the chosen direction, merging with any adjacent tile of the same number.
+    </p>
+    <p class="description">
+        The true challenge lies in the limited space available on the grid, as well as the strategic decision-making involved in every move. You must carefully plan your moves to avoid filling up the grid without creating opportunities for merging tiles. Each move adds a new tile to the grid, further complicating your task.
+    </p>
+    <p class="description">
+        Your goal is to reach the tile numbered 2048 by merging smaller tiles. However, the game doesn't end there. If you manage to reach 2048, you can continue playing to achieve even higher numbers and strive for the highest possible score.
+    </p>
+    <p class="description">
+        2048 offers a simple and intuitive interface, with visually appealing and distinctively colored tiles representing different numbers. The game provides a stimulating experience that combines logic, strategy, and patience, making it suitable for players of all ages and skill levels.
+    </p>
+    <p class="description">   
+        With its addictive gameplay, 2048 provides endless hours of entertainment and brain-teasing challenges. Can you navigate the grid, make the right moves, and conquer the ultimate numerical goal of 2048?
+    </p>
+    </div>
+</body>
+<script src="rsc/index.js"></script>
+</html>
