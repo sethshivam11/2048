@@ -101,6 +101,12 @@ document.addEventListener("keyup", (e) => {
     }
 });
 
+document.addEventListener("swiped-up", (e)=>{
+
+    document.getElementById("name").innerHtml = "swiped-up";
+
+});
+
 function filterZero(row) {
     console.log(row);
     return row.filter(num => num != 0);
