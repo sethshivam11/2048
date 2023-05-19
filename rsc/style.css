@@ -40,8 +40,8 @@ body::-webkit-scrollbar-thumb{
     background: rgb(170, 170, 168);
 }
 #board{
-    height: 425px;
-    width: 425px;
+    height: 30rem;
+    width: 30rem;
     background-color: #EAEAEA;
     top: 5vmin;
     position: relative;
@@ -71,8 +71,8 @@ body::-webkit-scrollbar-thumb{
 }
 .tile{
     background-color: #CCCCCC;
-    width: 100px;
-    height: 100px;
+    width: 7rem;
+    height: 7rem;
     text-align: center;
     display: flex;
     align-items: center;
