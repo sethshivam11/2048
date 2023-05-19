@@ -1,3 +1,7 @@
+html{
+  scroll-behaviour: smooth;
+  overscroll-behavior: none;
+}
 #over{
     background: rgb(228, 227, 227, 50%);
     width: 425px;
