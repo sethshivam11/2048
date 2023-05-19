@@ -120,6 +120,12 @@ function touchEnd(event) {
   }
 }
 
+document.getElementById('board').addEventListener('touchmove', function (event) {
+
+  event.preventDefault();
+
+}, { passive: false });
+
 // arrow button press event listener
 document.addEventListener("keyup", (e) => {
     if (e.code == "ArrowLeft" || "") {
