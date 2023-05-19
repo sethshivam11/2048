@@ -21,3 +21,24 @@ body{
 #score{
     font-size: 3rem;
 }
+/* CSS for mobile devices */
+
+/* Game board */
+#board {
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+  max-height: 400px;
+  margin: auto;
+  padding: 20px;
+}
+
+.tile {
+  width: calc(25% - 10px);
+  height: calc(25% - 10px);
+  font-size: 1.5rem;
+}
+
+/* Adjust the tile size and font-size according to your preference */
+
+/* Add more responsive styles if needed */
