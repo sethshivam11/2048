@@ -1,0 +1,46 @@
+body {
+  width: auto;
+}
+
+#name {
+  font-size: 4rem;
+}
+
+.description {
+  width: 60vw;
+}
+
+#list {
+  width: 60vw;
+}
+#text{
+  margin-top: 20vw;
+}
+#score {
+  font-size: 3rem;
+}
+
+#board {
+  width: 70vw;
+  height: 70vw;
+  top: 10vw;
+}
+#over{
+  font-size: 1.5rem;
+  width: 70vw;
+  height: 70vw;
+}
+
+.tile {
+  width: 16.5vw;
+  height: 16.5vw;
+  font-size: 2rem;
+}
+#btns{
+  top: 40vw;
+}
+.btn{
+  font-size: 1.4rem;
+  width: 22vw;
+  height: 10vw;
+}
