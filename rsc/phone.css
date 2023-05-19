@@ -1,0 +1,23 @@
+body{
+    width: auto;
+}
+#board{
+    width: 40rem;
+    height: 40rem;
+}
+.tile{
+    width: 9.5rem;
+    height: 9.5rem;
+}
+#name{
+    font-size: 6rem;
+}
+.description{
+    width: 60vw;
+}
+#list{
+    width: 60vw;
+}
+#score{
+    font-size: 3rem;
+}
